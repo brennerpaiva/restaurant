@@ -1,0 +1,32 @@
+.nav-link {
+  padding: 0 35px !important;
+  font-weight: 500 !important;
+  color: var(--color-black) !important;
+}
+
+.btn-white {
+  border-radius: 20px !important;
+  padding: 15px 25px !important;
+  color: var(--color-black) !important;
+  font-size: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.icon-wrapper {
+  background-color: var(--color-primary) !important;
+  border-radius: 12px;
+  padding: 5px 5px;
+  margin-left: 6px;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon .icon {
+  color: var(--color-black);
+
+  width: 25px !important;
+
+  text-aligh: center;
+}
