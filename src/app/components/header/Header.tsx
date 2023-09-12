@@ -57,7 +57,7 @@ export default function Header() {
             </ul>
             <a className="btn btn-white btn-icon">
               Meu Carrinho
-              <span className="icon-wrapper">
+              <span className="icon-wrapper-header">
                 <BsFillBagFill className="icon" />
               </span>
             </a>
