@@ -49,9 +49,11 @@ export default function Headline() {
                 <img src="/burguer.png" alt="hamburguer" />
               </div>
               <div className="card card-case">
-                "Entrega rápida e funcionários simpáticos!
-                <br /> A comida chegou quente <br />
-                Muito saborosa!"
+                <p>
+                  "Entrega rápida e funcionários simpáticos!
+                  <br /> A comida chegou quente <br />
+                  Muito saborosa!"
+                </p>
                 <span className="card-case-name">
                   <strong>Thiago Borges</strong>
                 </span>
