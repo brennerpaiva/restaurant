@@ -1,0 +1,13 @@
+.hint-title {
+  color: var(--color-primary);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title {
+  color: var(--color-black);
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
