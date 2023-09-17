@@ -1,4 +1,4 @@
-import "./headline.css";
+import "./headline.modules.css";
 import {
   AiFillPhone,
   AiOutlineInstagram,
@@ -47,6 +47,14 @@ export default function Headline() {
             <div className="card-banner">
               <div className="d-flex img-banner">
                 <img src="/burguer.png" alt="hamburguer" />
+              </div>
+              <div className="card card-case">
+                "Entrega rápida e funcionários simpáticos!
+                <br /> A comida chegou quente <br />
+                Muito saborosa!"
+                <span className="card-case-name">
+                  <strong>Thiago Borges</strong>
+                </span>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import "./header.css";
+import "./header.modules.css";
 import { Container, Nav, Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
