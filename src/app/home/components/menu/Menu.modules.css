@@ -1,0 +1,32 @@
+.menu {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.background-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-image: url("/bg-icons-2.png");
+}
+
+.container-menu {
+  margin-bottom: 40px;
+}
+
+.container-menu .btn-sm {
+  cursor: pointer;
+}
+
+.container-menu a {
+  margin-right: 6px;
+}
+
+.container-menu icon {
+  margin-right: 3px;
+}
+
+.teste {
+  display: grid;
+}
