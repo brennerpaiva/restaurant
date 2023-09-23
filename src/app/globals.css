@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1320px;
+}
+
 .card-item {
   border: none;
   border-radius: 20px !important;
