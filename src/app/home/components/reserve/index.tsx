@@ -26,7 +26,7 @@ export default function Reserve() {
                   </a>
                 </div>
 
-                <div className="col-5 teste">
+                <div className="col-5 image-wrapper">
                   <div className="card-reserva"></div>
                   <div className="d-flex img-banner">
                     <img src="/icone-reserva.svg" alt="reserva" />

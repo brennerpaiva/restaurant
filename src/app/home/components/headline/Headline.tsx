@@ -1,11 +1,7 @@
 import "./headline.modules.css";
-import {
-  AiFillPhone,
-  AiOutlineInstagram,
-  AiOutlineFacebook,
-  AiOutlineWhatsApp,
-} from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
 import Image from "next/image";
+import MediasSocials from "@/app/components/mediasSocials";
 
 export default function Headline() {
   return (
@@ -33,15 +29,7 @@ export default function Headline() {
                 </a>
               </div>
             </div>
-            <a href="#" className="btn btn-sm btn-white btn-social mt-1 mr-3">
-              <AiOutlineInstagram />
-            </a>
-            <a href="#" className="btn btn-sm btn-white btn-social mt-1 mr-3">
-              <AiOutlineFacebook />
-            </a>
-            <a href="#" className="btn btn-sm btn-white btn-social mt-1 mr-3">
-              <AiOutlineWhatsApp />
-            </a>
+            <MediasSocials />
           </div>
           <div className="col-6">
             <div className="card-banner">
