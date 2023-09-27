@@ -1,6 +1,6 @@
 import React from "react";
 import "./cardProduct.modules.css";
-import { BsFillBagFill } from "react-icons/bs";
+import CartUnits from "../cartUnits";
 
 export default function CardProduct() {
   return (
@@ -15,14 +15,7 @@ export default function CardProduct() {
         <p className="price-produto text-center">
           <strong>R$140,90</strong>
         </p>
-        <div className="add-carrinho">
-          <span className="btn-menos">-</span>
-          <span className="add-numero-itens">0</span>
-          <span className="btn-mais">+</span>
-          <span className="btn-add">
-            <BsFillBagFill className="icon" />
-          </span>
-        </div>
+        <CartUnits />
       </div>
     </div>
   );
