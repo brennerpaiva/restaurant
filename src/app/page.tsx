@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Head from "next/head";
-import Headline from "./home/components/headline/Headline";
-import OurServices from "./home/components/ourServices/OurServices";
-import Menu from "./home/components/menu/Menu";
-import Feedbacks from "./home/components/feedbacks";
-import Reserve from "./home/components/reserve";
-import Modal from "./components/modal";
-import Header from "@/app/components/header/Header";
-import Footer from "./components/footer";
+import Headline from "./home/components/Headline";
+import OurServices from "./home/components/OurServices";
+import Menu from "./home/components/Menu";
+import Feedbacks from "./home/components/Feedbacks";
+import Reserve from "./home/components/Reserve";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <Menu />
       <Feedbacks />
       <Reserve />
-      <Modal />
       <Footer />
     </div>
   );

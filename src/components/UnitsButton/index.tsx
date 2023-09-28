@@ -1,8 +1,8 @@
 import React from "react";
-import "./cartUnits.modules.css";
+import "./CartUnits.modules.css";
 import { BsFillBagFill } from "react-icons/bs";
 
-export default function cartUnits() {
+export default function UnitsButtons() {
   return (
     <div className="add-carrinho">
       <span className="btn-menos">-</span>

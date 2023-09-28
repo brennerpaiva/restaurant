@@ -1,6 +1,6 @@
 import React from "react";
-import "./cardProduct.modules.css";
-import CartUnits from "../cartUnits";
+import "./CardProduct.modules.css";
+import UnitsButtons from "@/components/UnitsButton";
 
 export default function CardProduct() {
   return (
@@ -15,7 +15,7 @@ export default function CardProduct() {
         <p className="price-produto text-center">
           <strong>R$140,90</strong>
         </p>
-        <CartUnits />
+        <UnitsButtons />
       </div>
     </div>
   );

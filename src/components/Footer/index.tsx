@@ -1,6 +1,6 @@
 import React from "react";
-import "./footer.modules.css";
-import MediasSocials from "../mediasSocials";
+import "./Footer.modules.css";
+import MediasSocials from "../MediasSocials";
 
 export default function Footer() {
   return (

@@ -1,11 +1,12 @@
 import React from "react";
 import "./Menu.modules.css";
-import TitleSection from "@/app/components/titleSection/TitleSection";
+import TitleSection from "@/components/TitleSection";
 import { FaHamburger, FaPizzaSlice, FaIceCream } from "react-icons/fa";
 import { FaBowlFood } from "react-icons/fa6";
 import { BiSolidDrink } from "react-icons/bi";
 import Image from "next/image";
-import CardProduct from "@/app/components/cardProduct";
+import CardProduct from "./CardProduct";
+import Button from "@/components/Button";
 
 export default function Menu() {
   return (

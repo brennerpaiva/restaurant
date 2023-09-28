@@ -1,0 +1,14 @@
+.modal-full {
+  padding: 50px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-body {
+  flex: 1;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-bottom: 140px;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./reserve.modules.css";
+import "./Reserve.modules.css";
 
 export default function Reserve() {
   return (

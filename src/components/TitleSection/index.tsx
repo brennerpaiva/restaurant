@@ -1,5 +1,5 @@
 import React from "react";
-import "./titleSection.modules.css";
+import "./TitleSection.modules.css";
 
 type TitleSectionProps = {
   hintTitle: string;

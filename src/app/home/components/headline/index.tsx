@@ -1,7 +1,8 @@
-import "./headline.modules.css";
+import React from "react";
+import "./Headline.modules.css";
 import { AiFillPhone } from "react-icons/ai";
 import Image from "next/image";
-import MediasSocials from "@/app/components/mediasSocials";
+import MediasSocials from "@/components/MediasSocials";
 
 export default function Headline() {
   return (

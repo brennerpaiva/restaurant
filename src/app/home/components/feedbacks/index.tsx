@@ -1,6 +1,6 @@
 import React from "react";
-import "./feedbacks.modules.css";
-import Feedback from "@/app/components/feedback";
+import "./Feedbacks.modules.css";
+import Feedback from "@/app/home/components/Feedbacks/Feedback";
 
 import Image from "next/image";
 

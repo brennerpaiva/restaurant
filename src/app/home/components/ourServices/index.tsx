@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import "./ourServices.modules.css";
-import TitleSection from "@/app/components/titleSection/TitleSection";
+import "./OurServices.modules.css";
+import TitleSection from "@/components/TitleSection";
 
 export default function OurServices() {
   return (

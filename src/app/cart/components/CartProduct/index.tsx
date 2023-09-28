@@ -1,6 +1,6 @@
 import React from "react";
 import "./cartProduct.modules.css";
-import CartUnits from "../cartUnits";
+import UnitsButtons from "../../../../components/UnitsButton";
 
 export default function CartProduct() {
   return (
@@ -21,7 +21,7 @@ export default function CartProduct() {
               <strong>R$ 149,99</strong>
             </p>
           </div>
-          <CartUnits />
+          <UnitsButtons />
         </div>
       </div>
     </>

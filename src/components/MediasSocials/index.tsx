@@ -1,5 +1,5 @@
 import React from "react";
-import "./mediasSocials-modules.css";
+import "./MediasSocials.modules.css";
 import {
   AiOutlineInstagram,
   AiOutlineFacebook,

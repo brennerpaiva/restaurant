@@ -30,10 +30,6 @@
   margin: auto 0;
 }
 
-.btn-white:hover {
-  background-color: var(--color-primary);
-}
-
 .icon-wrapper {
   background-color: var(--color-primary) !important;
   border-radius: 12px;
@@ -55,11 +51,6 @@
   padding: 9px 15px !important;
   border-radius: 15px !important;
   font-size: 20px !important;
-}
-
-.btn-social {
-  margin-right: 10px;
-  width: 50px;
 }
 
 .card-banner {
