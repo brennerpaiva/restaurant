@@ -4,7 +4,8 @@ import "./cart.modules.css";
 import CartProduct from "./components/CartProduct";
 import CartFooter from "./components/CartFooter";
 import CartHeader from "./components/CartHeader";
-import CartFormAddress from "./components/CartAdrressForm";
+import CartAddressForm from "./components/CartAddressForm";
+import CartResume from "./components/CartResume";
 import Button from "@/components/Button";
 
 export default function Modal() {
@@ -13,8 +14,9 @@ export default function Modal() {
       <div className="m-body">
         <CartHeader />
         <div className="container">
-          {/* <CartProduct />
-          {/* <CartFormAddress /> */}
+          {/* <CartProduct /> */}
+          {/* <CartAddressForm /> */}
+          <CartResume />
         </div>
         <CartFooter />
       </div>

@@ -3,7 +3,7 @@ import "./cartFormDelivert.modules.css";
 import Button from "@/components/Button";
 import { BiSearchAlt } from "react-icons/bi";
 
-export default function CartFormAddress() {
+export default function CartAddressForm() {
   return (
     <div id="localEntrega" className="row mr-0 ml-0">
       <div className="col-4">
