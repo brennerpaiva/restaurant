@@ -33,7 +33,7 @@
 .icon-wrapper {
   background-color: var(--color-primary) !important;
   border-radius: 12px;
-  padding: 5px 8px;
+  padding: 4px 8px;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -41,8 +41,8 @@
   margin-right: 6px;
 }
 
-.icon {
-  color: var(--color-black);
+.icon-wrapper .icon {
+  color: var(--color-white);
   width: 25px !important;
   text-aligh: center;
 }
@@ -58,16 +58,15 @@
   width: 450px;
   border-radius: 150px;
   background-color: var(--color-light-background);
-  position: absolute;
-  top: 180px;
-  right: 185px;
+  position: relative;
+  left: 140px;
 }
 
 .img-banner img {
   position: absolute;
   width: 570px;
-  top: 90px;
-  right: 15px;
+  top: 60px;
+  right: 0px;
 }
 
 .card-case {
@@ -89,4 +88,7 @@
   color: var(--color-primary);
   right: 20px;
   bottom: 10px;
+}
+
+@media (max-width: 767px) {
 }
