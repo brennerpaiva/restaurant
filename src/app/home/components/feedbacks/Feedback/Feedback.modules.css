@@ -1,0 +1,61 @@
+.depoimento {
+  margin-top: 70px;
+}
+
+.imagem-depoimento {
+  width: 65px;
+  height: 65px;
+  background-color: var(--color-white);
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15px;
+}
+
+#depoimento-1 .imagem-depoimento {
+  object-fit: cover;
+}
+
+.nome-depoimento {
+  color: var(--color-black);
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.nota-depoimento {
+  color: var(--color-primary);
+}
+
+.nota-depoimento span {
+  color: var(--color-black);
+}
+
+.texto-depoimento {
+  display: flex;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.texto-depoimento .icon-quote {
+  font-size: 65px;
+  color: var(--color-primary);
+}
+
+.texto-depoimento span {
+  padding-left: 45px;
+}
+
+.texto-depoimento .icon-quote:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+@media (max-width: 765px) {
+  .depoimentos {
+    padding-bottom: 50px !important;
+  }
+
+  .texto-depoimento {
+  }
+}

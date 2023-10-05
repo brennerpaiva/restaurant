@@ -9,7 +9,7 @@ export default function Headline() {
     <section className="banner">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="d-flex text-banner">
               <h1>
                 Escolha sua comida <span>favorita</span>
@@ -19,10 +19,10 @@ export default function Headline() {
                 sua casa de forma rápida e segura.
               </p>
               <div>
-                <a href="#" className="btn btn-yellow mt-4 mr-3">
+                <a href="#" className="btn btn-yellow mt-4 mr-6">
                   Ver Cardápio
                 </a>
-                <a href="#" className="btn btn-white btn-icon-left mt-4 mr-4">
+                <a href="#" className="btn btn-white btn-icon-left mt-4 ">
                   <span className="icon-wrapper ">
                     <AiFillPhone className="icon" />
                   </span>
@@ -32,7 +32,7 @@ export default function Headline() {
             </div>
             <MediasSocials />
           </div>
-          <div className="col-6">
+          <div className="col-6 no-mobile">
             <div className="card-banner">
               <div className="d-flex img-banner">
                 <img src="/burguer.png" alt="hamburguer" />

@@ -11,7 +11,7 @@ export default function Feedbacks() {
 
       <div className="container">
         <div className="row">
-          <div className="col-5 text-center">
+          <div className="col-5 text-center no-mobile">
             <div className="card-depoimentos">
               <div className="d-flex img-banner-pizza">
                 <Image
@@ -24,14 +24,14 @@ export default function Feedbacks() {
             </div>
           </div>
 
-          <div className="col-7">
+          <div className="col-12 col-lg-7 col-md-7 col-sm-12 col-one">
             <span className="hint-title">
               <strong>Depoimentos</strong>
             </span>
             <h1 className="title">
               <strong>O que dizem sobre nós</strong>
             </h1>
-            <div className="mb-b">
+            <div className="mb-5">
               <Feedback
                 img={"/joao.jpg"}
                 name={"Diego Pereira"}

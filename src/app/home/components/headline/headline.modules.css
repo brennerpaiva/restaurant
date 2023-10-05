@@ -90,5 +90,35 @@
   bottom: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 765px) {
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .text-banner h1 {
+    font-size: 36px;
+  }
+
+  .text-banner p {
+    font-size: 18px;
+  }
+  .btn-yellow,
+  .btn-white {
+    padding: 13px 23px !important;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-icon-left span.icon-left {
+    width: 43px;
+    height: 43px;
+    margin-left: -56px;
+  }
+
+  .icon-wrapper .icon {
+    justify-content: center;
+    align-items: center;
+  }
 }
