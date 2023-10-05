@@ -2,7 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 :root {
-  --color-background: #fffdf7;
+  --color-background: #fffdc3;
   --color-light-background: #f4c949;
   --color-black: #212121;
   --color-black-heavy: #000000;
@@ -82,5 +82,21 @@ a {
 }
 
 .mr-6 {
-  margin-right: 6px;
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 765px) {
+  .col-one {
+    padding: 0 20px !important;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 765px) {
+  .just-mobile {
+    display: none;
+  }
 }

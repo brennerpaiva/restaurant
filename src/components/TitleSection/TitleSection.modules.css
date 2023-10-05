@@ -11,3 +11,9 @@
   margin-top: 5px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 765px) {
+  .title {
+    font-size: 30px;
+  }
+}

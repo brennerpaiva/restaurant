@@ -7,8 +7,18 @@ import { BiSolidDrink } from "react-icons/bi";
 import Image from "next/image";
 import CardProduct from "./CardProduct";
 import Button from "@/components/Button";
+import { prisma } from "@/lib/prisma";
+import { Products } from "@prisma/client";
 
-export default function Menu() {
+async function getProducts() {
+  const product = await prisma.products.findMany({});
+
+  return product;
+}
+
+const Menu = async () => {
+  const data = await getProducts();
+
   return (
     <section className="menu" id="menu">
       <div className="container">
@@ -23,49 +33,33 @@ export default function Menu() {
               Burguer
             </a>
             <a href="#" className="btn btn-white btn-sm ">
-              <FaPizzaSlice className="mr-6" />
+              <FaPizzaSlice className="mr-6 icon" />
               Pizza
             </a>
 
             <a href="#" className="btn btn-white btn-sm ">
-              <FaBowlFood className="mr-6" />
+              <FaBowlFood className="mr-6 icon" />
               Petiscos
             </a>
             <a href="#" className="btn btn-white btn-sm ">
-              <FaIceCream className="mr-6" />
+              <FaIceCream className="mr-6 icon" />
               Sobremesas
             </a>
             <a href="#" className="btn btn-white btn-sm ">
-              <BiSolidDrink className="mr-6" />
+              <BiSolidDrink className="mr-6 icon" />
               Bebidas
             </a>
           </div>
-          <div className="col-12">
+          <div className="col-12 col-one">
             <div className="row" id="menuItems">
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
-              <div className="col-3">
-                <CardProduct />
-              </div>
+              {data.map((product: Products) => (
+                <div
+                  className="col-12 col-lg-3 col-md-3 col-sm-6"
+                  key={product.id}
+                >
+                  <CardProduct product={product} />
+                </div>
+              ))}
             </div>
           </div>
 
@@ -78,4 +72,6 @@ export default function Menu() {
       </div>
     </section>
   );
-}
+};
+
+export default Menu;

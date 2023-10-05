@@ -19,8 +19,8 @@
   color: var(--color-black);
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-align: center;
   overflow: hidden;
-  height: 100%;
   margin-top: 8px;
 }
 
@@ -28,6 +28,7 @@
   color: var(--color-primary);
   font-size: 24px;
   transition: 0s ease-in-out;
+  text-align: center;
 }
 
 .card-item .add-carrinho {
@@ -37,14 +38,51 @@
   align-items: center;
 }
 
-/* .btn-add icon {
-  color: var(--color-primary);
-} */
-
 .card-item:hover {
   background-color: var(--color-primary) !important;
 }
 
 .card-item:hover .price-produto {
   color: var(--color-black) !important;
+}
+
+@media (max-width: 765px) {
+  .card-item {
+    height: 130px;
+    flex-direction: row;
+  }
+
+  .card-item .img-produto img {
+    height: 100%;
+    width: 100px;
+  }
+
+  .info-produto {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .card-item .title-produto {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .card-item .description-produto {
+    font-size: 12px;
+    max-height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--color-text);
+  }
+
+  .card-item .price-produto {
+    line-height: 5px;
+    text-align: left;
+  }
 }

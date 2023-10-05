@@ -12,7 +12,6 @@ export default function CartResume() {
         </p>
       </div>
       <CartResumeProduct />
-      <CartResumeProduct />
 
       <div className="col-12">
         <p className="title-carrinho mt-3">

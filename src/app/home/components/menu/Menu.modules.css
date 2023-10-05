@@ -1,5 +1,5 @@
 .menu {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 
@@ -9,6 +9,7 @@
   right: 0;
   height: 500px;
   background-image: url("/bg-icons-2.png");
+  pointer-events: none;
 }
 
 .container-menu {
@@ -27,6 +28,23 @@
   margin-right: 3px;
 }
 
-.teste {
-  display: grid;
+@media (max-width: 765px) {
+  .menu {
+    padding-bottom: 50px;
+  }
+
+  .container-menu {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    padding-bottom: 15px;
+  }
+
+  .container-menu .btn-sm {
+    display: flex;
+  }
+
+  .container-menu .btn-sm .icon {
+    margin-right: 8px;
+  }
 }

@@ -20,10 +20,11 @@
 
 .add-numero-itens {
   color: var(--color-black-heavy);
-  padding: 5px 15px !important;
+  padding: 5px 15px;
   border-top: 2px solid var(--color-black);
   border-bottom: 2px solid var(--color-black);
   font-size: 14px;
+  font-weight: bold;
 }
 
 .btn-add {
@@ -32,7 +33,16 @@
   padding: 4px 10px;
   border-radius: 10px;
   color: var(--color-white) !important;
-
   margin-left: 15px;
   cursor: pointer;
+}
+
+.btn-add .icon {
+  color: var(--color-black) !important;
+}
+
+@media (max-width: 765px) {
+  .add-numero-itens {
+    padding: 5px 10px;
+  }
 }

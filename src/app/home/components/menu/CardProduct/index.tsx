@@ -1,21 +1,31 @@
 import React from "react";
 import "./CardProduct.modules.css";
 import UnitsButtons from "@/components/UnitsButton";
+import { Products } from "@prisma/client";
 
-export default function CardProduct() {
+interface ProductItemProps {
+  product: Products;
+}
+
+export default function CardProduct({ product }: ProductItemProps) {
   return (
     <div>
       <div className="card card-item">
         <div className="img-produto">
-          <img src="/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" />
+          <img src={`${product.coverImage}`} alt={`${product.name}`} />
         </div>
-        <p className="title-produto text-center">
-          <>Nome do produto muito grandesssssssss</>
-        </p>
-        <p className="price-produto text-center">
-          <strong>R$140,90</strong>
-        </p>
-        <UnitsButtons />
+        <div className="info-produto">
+          <p className="title-produto">{product.name}</p>
+          <p className="description-produto just-mobile">
+            {product.description} ...
+          </p>
+          <p className="price-produto">
+            <strong>R${product.price.toString()}</strong>
+          </p>
+        </div>
+        <div className="no-mobile">
+          <UnitsButtons />
+        </div>
       </div>
     </div>
   );
