@@ -4,7 +4,7 @@
 .modal-full .item-carrinho {
   display: flex;
   justify-content: center;
-  padding: 20px !important;
+  padding: 20px;
   border-top: 1px solid var(--color-separate);
 }
 
@@ -43,4 +43,30 @@
   height: 30px;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 765px) {
+  .modal-full .img-produto img {
+    width: 72px !important;
+  }
+
+  .modal-full .dados-produto {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+  }
+
+  .modal-full .item-carrinho {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .modal-full .title-produto,
+  .modal-full .price-produto {
+    font-size: 16px !important;
+  }
+
+  .wrapper-button {
+    margin: auto 0;
+  }
 }

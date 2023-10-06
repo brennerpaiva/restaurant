@@ -18,10 +18,12 @@ export default function CartProduct() {
               <strong>Nome do produto</strong>
             </p>
             <p className="price-produto">
-              <strong>R$ 149,99</strong>
+              <strong>R$149,99</strong>
             </p>
           </div>
-          <UnitsButtons />
+          <div className="wrapper-button">
+            <UnitsButtons />
+          </div>
         </div>
       </div>
     </>

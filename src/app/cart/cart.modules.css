@@ -12,3 +12,9 @@
   overflow-x: hidden;
   padding-bottom: 140px;
 }
+
+@media (max-width: 765px) {
+  .modal-full {
+    padding: 20px;
+  }
+}

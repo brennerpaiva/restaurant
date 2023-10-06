@@ -25,3 +25,12 @@
 .form-group {
   margin-bottom: 12px;
 }
+
+@media (max-width: 765px) {
+  .form-control {
+    font-size: 16px;
+  }
+  #localEntrega {
+    margin-bottom: 40px;
+  }
+}

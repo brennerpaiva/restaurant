@@ -1,12 +1,12 @@
 import React from "react";
-import "./cartFormDelivert.modules.css";
+import "./cartAddressForm.modules.css";
 import Button from "@/components/Button";
 import { BiSearchAlt } from "react-icons/bi";
 
 export default function CartAddressForm() {
   return (
     <div id="localEntrega" className="row mr-0 ml-0">
-      <div className="col-4">
+      <div className="col-12 col-lg-4 col-md-4 col-sm-12">
         <div className="form-group container-cep">
           <label>CEP:</label>
           <input id="txtCEP" type="text" className="form-control" />
@@ -16,44 +16,44 @@ export default function CartAddressForm() {
         </div>
       </div>
 
-      <div className="col-8"></div>
+      <div className="col-8 no-mobile"></div>
 
-      <div className="col-6">
+      <div className="col-12 col-lg-6 col-md-6 col-sm-12">
         <div className="form-group">
           <label>Endereço:</label>
           <input id="txtENDEREÇO" type="text" className="form-control" />
         </div>
       </div>
 
-      <div className="col-4">
+      <div className="col-12 col-lg-4 col-md-4 col-sm-12">
         <div className="form-group">
           <label>Bairro:</label>
           <input id="txtBAIRRO" type="text" className="form-control" />
         </div>
       </div>
 
-      <div className="col-2">
+      <div className="col-12 col-lg-2 col-md-2 col-sm-12">
         <div className="form-group">
           <label>Número:</label>
           <input id="txtNUMERO" type="text" className="form-control" />
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-12 col-lg-4 col-md-4 col-sm-12">
         <div className="form-group">
           <label>Cidade:</label>
           <input id="txtCIDADE" type="text" className="form-control" />
         </div>
       </div>
 
-      <div className="col-4">
+      <div className="col-12 col-lg-4 col-md-4 col-sm-12">
         <div className="form-group">
           <label>Complemento:</label>
           <input id="txtCOMPLEMENTO" type="text" className="form-control" />
         </div>
       </div>
 
-      <div className="col-2">
+      <div className="col-12 col-lg-2 col-md-2 col-sm-12">
         <div className="form-group">
           <label>UF :</label>
           <select id="txtESTADO" className="form-control">

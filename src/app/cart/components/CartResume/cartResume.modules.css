@@ -82,3 +82,8 @@
 .cidade-endereco {
   margin-bottom: 14px;
 }
+
+#resumoCarrinho {
+  padding: 0;
+  margin-bottom: 40px;
+}
