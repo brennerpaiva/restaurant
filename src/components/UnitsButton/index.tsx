@@ -8,7 +8,7 @@ export default function UnitsButtons() {
       <span className="btn-menos">-</span>
       <span className="add-numero-itens">0</span>
       <span className="btn-mais">+</span>
-      <span className="btn-add">
+      <span className="btn-add no-mobile">
         <BsFillBagFill className="icon" />
       </span>
     </div>

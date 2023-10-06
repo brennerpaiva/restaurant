@@ -8,13 +8,13 @@ export default function Header() {
   return (
     <section className="header">
       <div className="container">
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg pl-0 pr-0 col-one">
           <a className="navbar-brand" href="#">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               className="img-logo"
-              width={160}
-              height={160}
+              width={110}
+              height={110}
               alt="logo"
             />
           </a>
